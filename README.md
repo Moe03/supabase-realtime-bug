@@ -1,11 +1,18 @@
 ### Install bun please im done with esm/commonjs dumb erros:
 
+Use pnpm to install..
+```
+pnpm install
+```
+
 Linux/MacOS
 https://bun.sh/docs/installation
 
 Linux/MacOS
 ```
 curl -fsSL https://bun.sh/install | bash     # for macOS, Linux, and WSL
+```
+
 # to install a specific version
 ```
 curl -fsSL https://bun.sh/install | bash -s "bun-v1.0.0"

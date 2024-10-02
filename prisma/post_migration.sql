@@ -14,12 +14,10 @@ alter publication supabase_realtime add table "User";
 -- enable RLS on the table
 alter table "User" enable row level security;
 
-
 -- add table 'Post' to the publication
 alter publication supabase_realtime add table "Post";
 
 -- enable RLS on the table
 alter table "Post" enable row level security;
-
 
 commit;

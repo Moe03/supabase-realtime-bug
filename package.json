@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bun run scripts/postmigration.ts && npx prisma generate"
+    "postinstall": "npx prisma generate && bun run scripts/postmigration.ts"
   },
   "keywords": [],
   "author": "",

@@ -79,7 +79,6 @@ alter publication supabase_realtime add table "${tableName}";
 
 -- enable RLS on the table
 alter table "${tableName}" enable row level security;
-
 `;
         });
 

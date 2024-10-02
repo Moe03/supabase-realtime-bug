@@ -46,7 +46,7 @@ app.get("/test", async (req: any, res: any) => {
                         name: "Test User",
                     },
                 });
-                console.log(`created new user, should be in realtime ?`)
+                console.log(`created new user, should show up in realtime..`)
             }
         });
 
