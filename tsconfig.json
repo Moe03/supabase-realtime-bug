@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "CommonJS",
+        "lib": [
+            "ES2018"
+        ],
+        "outDir": "./dist",
+        "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@root/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "scripts/postmigration.ts",
+        "src/**/*",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
