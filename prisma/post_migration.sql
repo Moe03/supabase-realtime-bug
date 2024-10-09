@@ -14,10 +14,14 @@ alter publication supabase_realtime add table "User";
 -- enable RLS on the table
 alter table "User" enable row level security;
 
+grant all on table "User" to service_role;
+
 -- add table 'Post' to the publication
 alter publication supabase_realtime add table "Post";
 
 -- enable RLS on the table
 alter table "Post" enable row level security;
+
+grant all on table "Post" to service_role;
 
 commit;
